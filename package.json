@@ -1,11 +1,11 @@
 {
   "version": "15.11.2",
-  "name": "react-native-svg",
+  "name": "@huddle01/react-native-svg",
   "description": "SVG library for react-native",
-  "homepage": "https://github.com/react-native-community/react-native-svg",
+  "homepage": "https://github.com/Huddle01/react-native-svg",
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-community/react-native-svg"
+    "url": "https://github.com/Huddle01/react-native-svg"
   },
   "license": "MIT",
   "main": "lib/commonjs/index.js",
@@ -123,7 +123,6 @@
     "{src,apps/common}/**/*.{js,ts,tsx}": "yarn format-js",
     "src/**/*.{js,ts,tsx}": "yarn lint",
     "apple/**/*.{h,m,mm,cpp}": "yarn format-ios",
-    "android/src/**/*.java": "yarn format-java",
     "src/fabric/*.ts": "yarn sync-archs"
   },
   "nativePackage": true,
