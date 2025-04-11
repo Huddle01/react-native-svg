@@ -123,6 +123,7 @@
     "{src,apps/common}/**/*.{js,ts,tsx}": "yarn format-js",
     "src/**/*.{js,ts,tsx}": "yarn lint",
     "apple/**/*.{h,m,mm,cpp}": "yarn format-ios",
+    "android/src/**/*.java": "yarn format-java",
     "src/fabric/*.ts": "yarn sync-archs"
   },
   "nativePackage": true,
